@@ -1,6 +1,6 @@
 {
   "name": "@mihanizm56/deploy-tag",
-  "version": "0.0.2",
+  "version": "0.0.3-beta.1",
   "description": "util for tagging commits and pushing it",
   "scripts": {
     "lint": "npx eslint ./lib --ext .js --fix",
@@ -48,5 +48,5 @@
       "prepare-commit-msg": "node ./config/git/prepare-commit.js"
     }
   },
-  "bin": "node lib/index.js"
+  "bin": "lib/bin.js"
 }
