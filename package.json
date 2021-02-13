@@ -1,12 +1,12 @@
 {
   "name": "@mihanizm56/deploy-tag",
-  "version": "0.0.3-beta.1",
+  "version": "0.0.3-beta.2",
   "description": "util for tagging commits and pushing it",
   "scripts": {
     "lint": "npx eslint ./lib --ext .js --fix",
     "commit": "git add . && git commit --no-edit",
-    "release": "npm run commit && git push && npm publish --access=public",
-    "beta": "npm run commit && git push && npm publish --tag beta --access=public"
+    "release": "npm link && npm run commit && git push && npm publish --access=public",
+    "beta": "npm link && npm run commit && git push && npm publish --tag beta --access=public"
   },
   "license": "MIT",
   "dependencies": {
