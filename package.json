@@ -1,6 +1,6 @@
 {
   "name": "@mihanizm56/deploy-tag",
-  "version": "0.0.1-beta.1",
+  "version": "0.0.1",
   "description": "util for tagging commits and pushing it",
   "scripts": {
     "lint": "npx eslint ./lib --ext .js --fix",
